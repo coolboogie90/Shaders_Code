@@ -22,6 +22,7 @@ Shader "Interface3/SimplePBR"
         CGPROGRAM
             #pragma surface surfaceFunction Standard fullforwardshadows
             #pragma target 3.0 
+            //target 3.0 si on a un shader un peu fancy/coûteux pour des machines plus anciennes
             
             sampler2D _MainTex;
             half4 _MainColor;
